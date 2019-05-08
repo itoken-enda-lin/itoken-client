@@ -1,10 +1,4 @@
-Spring:
-  application:
-    name: itoken-client
-  boot:
-    admin:
-      client:
-        url: http://localhost:8084
+spring:
   cloud:
     config:
       uri: http://localhost:8888
